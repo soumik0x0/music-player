@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     audioPlayer.addEventListener('loadedmetadata', () => {
-        trackTitle.textContent = "MELTDOWN";
-        trackArtist.textContent = "TRAVIS SCOTT & DRAKE";
+        trackTitle.textContent = "Song Title";
+        trackArtist.textContent = "Artist Name";
     });
 });
